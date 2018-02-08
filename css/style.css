@@ -1,1 +1,59 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+img, 
+embed, 
+object, 
+video {
+	max-width: 100%;
+}
+
+.title {
+	font-size: 50px;
+	margin-top: 20px;
+	font-weight: bolder;
+}
+
+.sub-title {
+	margin-top: 0;
+}
+
+.logo {
+	top: 20px;
+	color: #02b3e4;
+	width: 120px;
+	height: 120px;
+}
+
+.seperator {
+	height: 3px;
+	border: none;
+	background-color: #7d97ad;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.row-header {
+	color: #7d97ad;
+	padding-top: 30px;
+}
+
+.col-md-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
